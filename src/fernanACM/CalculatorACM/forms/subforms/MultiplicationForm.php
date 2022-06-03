@@ -8,7 +8,7 @@ use pocketmine\player\Player;
 use Vecnavium\FormsUI\CustomForm;
 
 use fernanACM\CalculatorACM\Calculator;
-use fernanACM\CalculatorACM\utils;
+use fernanACM\CalculatorACM\utils\PluginUtils;
 
 class MultiplicationForm{
 
