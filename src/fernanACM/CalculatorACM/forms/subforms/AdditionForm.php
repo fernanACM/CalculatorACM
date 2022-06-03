@@ -23,6 +23,7 @@ class AdditionForm{
 			}elseif (!is_null($data)){
                 $prefix = Calculator::getInstance()->getMessage($player, "Prefix");
                 $player->sendMessage($prefix . Calculator::getInstance()->getMessage($player, "Messages.error-line"));
+		PluginUtils::PlaySound($player, "mob.villager.no", 1, 1);
             } 
 		});
 		$form->setTitle(Calculator::getInstance()->getMessage($player, "Addition.title"));
