@@ -1,0 +1,12 @@
+name: CalculatorACM
+main: fernanACM\CalculatorACM\Calculator
+version: 1.0.0
+api: 4.0.0
+author: fernanACM
+description: Use a calculator in a form for PocketMine-MP 4.0 servers. Add addition, subtraction, multiplication and division.
+website: https//github.com/fernanACM
+
+permissions:
+  calculatoracm.cmd.acm:
+    default: op
+    description: /calculator

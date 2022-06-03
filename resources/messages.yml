@@ -1,0 +1,74 @@
+#   ____           _                  _           _                       _       ____   __  __ 
+#  / ___|   __ _  | |   ___   _   _  | |   __ _  | |_    ___    _ __     / \     / ___| |  \/  |
+# | |      / _` | | |  / __| | | | | | |  / _` | | __|  / _ \  | '__|   / _ \   | |     | |\/| |
+# | |___  | (_| | | | | (__  | |_| | | | | (_| | | |_  | (_) | | |     / ___ \  | |___  | |  | |
+#  \____|  \__,_| |_|  \___|  \__,_| |_|  \__,_|  \__|  \___/  |_|    /_/   \_\  \____| |_|  |_|
+#
+# Use a calculator in a form for PocketMine-MP 4.0 servers. Add addition, subtraction, multiplication and division.
+# Here you can edit the plugin messages
+
+# ======(KEYS)======
+# "{LINE}" => "\n",
+# "{NAME}" => $player->getName(),
+# Colors
+# "{BLACK}" => TextFormat::BLACK,
+# "{DARK_BLUE}" => TextFormat::DARK_BLUE,
+# "{DARK_GREEN}" => TextFormat::DARK_GREEN,
+# "{CYAN}" => TextFormat::DARK_AQUA,
+# "{DARK_RED}" => TextFormat::DARK_RED,
+# "{PURPLE}" => TextFormat::DARK_PURPLE,
+# "{GOLD}" => TextFormat::GOLD,
+# "{GRAY}" => TextFormat::GRAY,
+# "{DARK_GRAY}" => TextFormat::DARK_GRAY,
+# "{BLUE}" => TextFormat::BLUE,
+# "{GREEN}" => TextFormat::GREEN,
+# "{AQUA}" => TextFormat::AQUA,
+# "{RED}" => TextFormat::RED,
+# "{PINK}" => TextFormat::LIGHT_PURPLE,
+# "{YELLOW}" => TextFormat::YELLOW,
+# "{WHITE}" => TextFormat::WHITE,
+# "{ORANGE}" => "§6"
+# "{BOLD}" => TextFormat::BOLD,
+# "{RESET}" => TextFormat::RESET
+
+# ======(MESSAGES)======
+Prefix: "{BOLD}[{GREEN}CalculatorACM{WHITE}]{GRAY}»{RESET} "
+
+CalculatorMenu:
+  title: "{BOLD}{CYAN}CalculatorACM"
+  content: "{YELLOW}Select the type of operation you need for the calculator"
+  button-addition: "{BOLD}{RED}ADDITION{LINE}{RESET}{BLACK}Click"
+  button-subtraction: "{BOLD}{RED}SUBTRACTION{LINE}{RESET}{BLACK}Click"
+  button-division: "{BOLD}{BLUE}MULTIPLICATION{LINE}{RESET}{BLACK}Click"
+  button-multiplication: "{BOLD}{BLUE}DIVISION{LINE}{RESET}{BLACK}Click"
+  button-exit: "{BOLD}{DARK_RED}EXiT{LINE}{RESET}{BLACK}Close calculator menu"
+
+Addition:
+  title: "{BOLD}{PURPLE}ADDITION"
+  content: "{YELLOW}Put the desired amount in each box to carry out the operation"
+  input-1: "{AQUA}Here you must put a number, example: {YELLOW}472"
+  input-2: "{AQUA}Here you must put a number, example: {YELLOW}58"
+
+Subtraction:
+  title: "{BOLD}{PURPLE}SUBTRACTION"
+  content: "{YELLOW}Put the desired amount in each box to carry out the operation"
+  input-1: "{AQUA}Here you must put a number, example: {YELLOW}192"
+  input-2: "{AQUA}Here you must put a number, example: {YELLOW}12"
+
+Division:
+  title: "{BOLD}{PURPLE}DIVISION"
+  content: "{YELLOW}Put the desired amount in each box to carry out the operation"
+  input-1: "{AQUA}Here you must put a number, example: {YELLOW}400"
+  input-2: "{AQUA}Here you must put a number, example: {YELLOW}10"
+
+Multiplication:
+  title: "{BOLD}{PURPLE}MULTIPLICATION"
+  content: "{YELLOW}Put the desired amount in each box to carry out the operation"
+  input-1: "{AQUA}Here you must put a number, example: {YELLOW}902"
+  input-2: "{AQUA}Here you must put a number, example: {YELLOW}4"
+
+Messages:
+  # Use '{RESULT}' to display the result of the operation
+  result-successful: "{GREEN}The operation has been carried out successfully, and came out as a result: {YELLOW}{RESULT}"
+  error-line: "{GOLD}The operation could not be completed, because you forgot to complete a box or entered an incorrect character."
+  no-permission: "{RED}You do not have permissions to run this command."
