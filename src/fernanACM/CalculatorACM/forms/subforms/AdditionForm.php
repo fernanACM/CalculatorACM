@@ -20,6 +20,7 @@ class AdditionForm{
 			    $prefix = Calculator::getInstance()->getMessage($player, "Prefix");
 			    $message = Calculator::getInstance()->getMessage($player, "Messages.result-successful");
 			    $player->sendMessage(str_replace(["{RESULT}"], [number_format($result)], $prefix . $message));
+			    PluginUtils::PlaySound($player, "random.levelup", 1, 1);
 			}elseif (!is_null($data)){
                 $prefix = Calculator::getInstance()->getMessage($player, "Prefix");
                 $player->sendMessage($prefix . Calculator::getInstance()->getMessage($player, "Messages.error-line"));
