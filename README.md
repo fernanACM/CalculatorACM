@@ -12,7 +12,7 @@
 ### 💡 Implementations
 * [x] Images > *To load the images, use [FormImagesFIX](https://poggit.pmmp.io/r/146450/FormImagesFix_dev-14.phar)*
 * [x] Message customization.
-* [ ] keys in configuration.
+* [x] keys in configuration.
 
 ### 🕹 Commands
 - ```/calculatoracm``` > Open a menu for convenience
