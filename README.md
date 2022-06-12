@@ -5,7 +5,8 @@
 
 **Use a calculator in a form for PocketMine-MP 4.0 servers. Add addition, subtraction, multiplication and division.**
 
-![Captura de pantalla 2022-06-03 000956](https://user-images.githubusercontent.com/83558341/171791322-e38ab982-1132-4c49-bf6c-b06be4ff212b.png)
+![Captura de pantalla 2022-06-12 003636](https://user-images.githubusercontent.com/83558341/173217286-3e759aea-5a1b-4778-b128-3ddbc6ad33b0.png)
+
 
 <a href="https://discord.gg/YyE9XFckqb"><img src="https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord" alt="Discord" /></a>
 
