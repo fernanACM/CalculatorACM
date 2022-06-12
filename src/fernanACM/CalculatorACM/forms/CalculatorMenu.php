@@ -46,8 +46,8 @@ class CalculatorMenu{
 		$form->setContent(Calculator::getInstance()->getMessage($player, "CalculatorMenu.content"));
 		$form->addButton(Calculator::getInstance()->getMessage($player, "CalculatorMenu.button-addition"),1,"https://i.imgur.com/H1jtwKg.png");
 		$form->addButton(Calculator::getInstance()->getMessage($player, "CalculatorMenu.button-subtraction"),1,"https://i.imgur.com/ksNuJ4q.png");
-		$form->addButton(Calculator::getInstance()->getMessage($player, "CalculatorMenu.button-division"),1,"https://i.imgur.com/vketyEi.png");
-		$form->addButton(Calculator::getInstance()->getMessage($player, "CalculatorMenu.button-multiplication"),1,"https://i.imgur.com/FSUGeSE.png");
+		$form->addButton(Calculator::getInstance()->getMessage($player, "CalculatorMenu.button-division"),1,"https://i.imgur.com/FSUGeSE.png");
+		$form->addButton(Calculator::getInstance()->getMessage($player, "CalculatorMenu.button-multiplication"),1,"https://i.imgur.com/vketyEi.png");
 		$form->addButton(Calculator::getInstance()->getMessage($player, "CalculatorMenu.button-exit"),0,"textures/ui/cancel");
 		$player->sendForm($form);
 	}
