@@ -11,7 +11,7 @@ use pocketmine\command\CommandSender;
 use CortexPE\Commando\BaseCommand;
 # My files
 use fernanACM\CalculatorACM\Calculator;
-use fernanACM\CalculatorACM\utils;
+use fernanACM\CalculatorACM\utils\PluginUtils;
 
 class CalculatorCommand extends BaseCommand{
 
