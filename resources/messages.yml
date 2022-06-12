@@ -41,7 +41,7 @@ CalculatorMenu:
   button-subtraction: "{BOLD}{RED}SUBTRACTION{LINE}{RESET}{BLACK}Click"
   button-division: "{BOLD}{BLUE}MULTIPLICATION{LINE}{RESET}{BLACK}Click"
   button-multiplication: "{BOLD}{BLUE}DIVISION{LINE}{RESET}{BLACK}Click"
-  button-exit: "{BOLD}{DARK_RED}EXiT{LINE}{RESET}{BLACK}Close calculator menu"
+  button-exit: "{BOLD}{DARK_RED}EXIT{LINE}{RESET}{BLACK}Close calculator menu"
 
 Addition:
   title: "{BOLD}{PURPLE}ADDITION"
